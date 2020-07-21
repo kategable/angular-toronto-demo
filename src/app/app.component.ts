@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-toronto-demo';
+  list: string[] = [];
+
+  add(item: string): void {
+    this.list.push(item);
+  }
+  remove(index):void {
+    this.list.splice(index, 1);
+  }
 }
