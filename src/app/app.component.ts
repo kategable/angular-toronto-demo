@@ -1,18 +1,23 @@
+import { DataService } from './services/data.service';
 import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
   title = 'angular-toronto-demo';
   list: string[] = [];
+  list$ =  this.dataService.getData();
+  cartItems$ =  this.dataService.cartItems$;
 
-  add(item: string): void {
-    this.list.push(item);
+  constructor( private dataService: DataService) {}
+
+  add(item: any): void {
+    this.dataService.addToCart(item);
   }
   remove(index): void {
-    this.list.splice(index, 1);
+    this.dataService.removeFromCart(index);
   }
 }

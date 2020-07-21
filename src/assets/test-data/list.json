@@ -1,0 +1,47 @@
+[
+    {
+        "name": "COOL KID",
+        "description": "Orange Kool-Aid® Icing",
+        "image": "https://raw.githubusercontent.com/katesky/angular-toronto-demo/master/src/assets/tails/1.jpg"
+    },
+    {
+        "name": "CHARMED",
+        "description": "Vanilla icing, Lucky Charms® cereal and pink glitter glaze",
+        "image": "https://raw.githubusercontent.com/katesky/angular-toronto-demo/master/src/assets/tails/2.jpg"
+    },
+    {
+        "name": "CHIPPED",
+        "description": "Vanilla icing, Cookie Crisp® cereral, chocolate sauce",
+        "image": "https://raw.githubusercontent.com/katesky/angular-toronto-demo/master/src/assets/tails/3.jpg"
+    },
+    {
+        "name": "THE CLASSIC",
+        "description": "A sprinkle of cinnamon & sugar",
+        "image": "https://raw.githubusercontent.com/katesky/angular-toronto-demo/master/src/assets/tails/4.png"
+    },
+    {
+        "name": "HAZEL AMOUR™",
+        "description": "Chocolate hazelnut spread with a dusting of icing sugar",
+        "image": "https://raw.githubusercontent.com/katesky/angular-toronto-demo/master/src/assets/tails/5.png"
+    },
+    {
+        "name": "BANANARAMA™",
+        "description": "Chocolate hazelnut spread and banana slices",
+        "image": "https://raw.githubusercontent.com/katesky/angular-toronto-demo/master/src/assets/tails/6.png"
+    },
+    {
+        "name": "APPLE PIE",
+        "description": "Apple pie filling with whole apple slices, caramel sauce, and crumble",
+        "image": "https://raw.githubusercontent.com/katesky/angular-toronto-demo/master/src/assets/tails/7.jpg"
+    },
+    {
+        "name": "AVALANCHE™",
+        "description": "Cheesecake spread, Skor® bits, and caramel sauce",
+        "image": "https://raw.githubusercontent.com/katesky/angular-toronto-demo/master/src/assets/tails/8.png"
+    },
+    {
+        "name": "TRIPLE TRIP™",
+        "description": "Chocolate hazelnut spread, peanut butter, and Reese’s Pieces®",
+        "image": "https://raw.githubusercontent.com/katesky/angular-toronto-demo/master/src/assets/tails/9.png"
+    }
+    ]
