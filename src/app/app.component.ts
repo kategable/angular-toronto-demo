@@ -12,7 +12,7 @@ export class AppComponent {
   add(item: string): void {
     this.list.push(item);
   }
-  remove(index):void {
+  remove(index): void {
     this.list.splice(index, 1);
   }
 }
