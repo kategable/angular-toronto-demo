@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'angular-toronto-demo';
   list: string[] = [];
-  list$ =  this.dataService.getData();
+  list$ =  this.dataService.list$;
   cartItems$ =  this.dataService.cartItems$;
 
   constructor( private dataService: DataService) {}
